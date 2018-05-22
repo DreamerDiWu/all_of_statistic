@@ -1,4 +1,9 @@
 from scipy import stats
+import numpy as np 
+import seaborn as sns
+import matplotlib.pyplot as plt 
 if __name__ == '__main__':
-	dist = stats.bernoulli(p=0.5)
-	print(dist.rvs(20))
+	a = stats.norm.rvs(size=100)
+	sns.distplot(a, label='foo')
+	plt.legend()
+	plt.show()
