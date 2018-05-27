@@ -1,2 +1,2 @@
-# all_of_statistic
-"Computer Experiment" homework of textbook all of statistic, for references only.
+# all of statistics
+"Computer Experiment" homework of Wasserman's "All of Statistics", for references only.
